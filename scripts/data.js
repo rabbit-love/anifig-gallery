@@ -78,4 +78,22 @@ export const data = [
     presentation: "images/08-kuwajima-yuko/01.jpg",
     images: loadImages("images/08-kuwajima-yuko", 1, 23),
   },
+  {
+    title: "Asuka Langley",
+    date: "10 Nov. 2024",
+    presentation: "images/09-asuka-langley/01.jpg",
+    images: loadImages("images/09-asuka-langley", 1, 19),
+  },
+  {
+    title: "Hatsune Miku Noodle Stopper",
+    date: "10 Nov. 2024",
+    presentation: "images/10-hatsune-miku-noodle-stopper/01.jpg",
+    images: loadImages("images/10-hatsune-miku-noodle-stopper", 1, 33),
+  },
+  {
+    title: "Racing Miku 2022 - Tropical Ver.",
+    date: "10 Nov. 2024",
+    presentation: "images/11-racing-miku-2022-tropical/01.jpg",
+    images: loadImages("images/11-racing-miku-2022-tropical", 1, 49),
+  },
 ];
