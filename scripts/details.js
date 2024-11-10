@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function loadFigureDetails() {
   const params = new URLSearchParams(window.location.search);
-  const index = params.get("index");
-  const figure = data[index];
+  const id = params.get("id");
+  const figure = data[id];
 
   if (figure) {
     document.getElementById("figure-title").textContent = figure.title;

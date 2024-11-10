@@ -13,7 +13,8 @@ function renderGallery() {
   const gallery = document.getElementById("gallery");
   gallery.innerHTML = "";
 
-  data.forEach((figure, index) => {
+  for (const id in data) {
+    const figure = data[id];
     const card = document.createElement("div");
     card.className = "card";
     card.innerHTML = `
@@ -22,8 +23,8 @@ function renderGallery() {
             <div class="card-date">${figure.date}</div>
         `;
     card.addEventListener("click", () => {
-      window.location.href = `details.html?index=${index}`;
+      window.location.href = `details.html?id=${id}`;
     });
     gallery.appendChild(card);
-  });
+  }
 }
