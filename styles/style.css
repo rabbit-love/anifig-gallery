@@ -36,7 +36,7 @@ h1 {
   display: grid;
   gap: 10px;
   padding: 20px;
-  grid-template-columns: repeat(4, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
 }
 
 .card,
@@ -54,12 +54,26 @@ h1 {
   width: 100%;
   height: auto;
   cursor: pointer;
+  transition: transform 0.5s ease;
 }
 
 .card:hover,
 .image-card:hover {
-  background-color: #357ab7;
-  transform: scale(1.05);
+  border: #357ab7 solid 3px;
+}
+
+.card img:hover,
+.image-card img:hover {
+  animation: zoom 1s infinite alternate ease-in-out;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 .card-title,
