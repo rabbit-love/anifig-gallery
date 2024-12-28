@@ -22,6 +22,7 @@ function loadFigureDetails() {
   const figure = data[id];
 
   if (figure) {
+    document.title = figure.title;
     document.getElementById("figure-title").textContent = figure.title;
 
     const detailsGallery = document.getElementById("details-gallery");
