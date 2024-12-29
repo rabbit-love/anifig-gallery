@@ -96,4 +96,25 @@ export const data = {
     presentation: "images/11-racing-miku-2022-tropical/01.jpg",
     images: loadImages("images/11-racing-miku-2022-tropical", 1, 49),
   },
+  "12-cc-bare-leg-bunny-ver-14-b-style-freeing": {
+    title:
+      "Code Geass: Lelouch of the Rebellion - C.C. -Bare Leg Bunny Ver.- 1/4 B-style (FREEing)",
+    date: "28 Dic. 2024",
+    presentation: "images/12-cc-bare-leg-bunny-ver-14-b-style-freeing/150.jpg",
+    images: loadImages(
+      "images/12-cc-bare-leg-bunny-ver-14-b-style-freeing",
+      1,
+      150
+    ),
+  },
+  "13-tonys-bunny-sisters-miio-usami-14-binding": {
+    title: "Tony’s Bunny Sisters - Mio Usami 1/4 (BINDing)",
+    date: "28 Dic. 2024",
+    presentation: "images/13-tonys-bunny-sisters-miio-usami-14-binding/51.jpg",
+    images: loadImages(
+      "images/13-tonys-bunny-sisters-miio-usami-14-binding",
+      1,
+      212
+    ),
+  },
 };
