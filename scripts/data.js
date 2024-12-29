@@ -117,4 +117,81 @@ export const data = {
       212
     ),
   },
+  "14-skytube-alphamax-oppai-no-egakikata-ohmune-hazumi": {
+    title: "Skytube Alphamax Oppai no Egakikata Ohmune Hazumi Anime 1/6",
+    date: "(INCOMING)",
+    presentation:
+      "images/14-skytube-alphamax-oppai-no-egakikata-ohmune-hazumi/01.jpg",
+    images: loadImages(
+      "images/14-skytube-alphamax-oppai-no-egakikata-ohmune-hazumi",
+      1,
+      1
+    ),
+  },
+  "15-zettai-junpaku-mahou-shoujo-kuramoto-erika-bunny-ver": {
+    title: "Zettai Junpaku Mahou Shoujo Kuramoto Erika 1/4 Bunny Ver",
+    date: "(INCOMING)",
+    presentation:
+      "images/15-zettai-junpaku-mahou-shoujo-kuramoto-erika-bunny-ver/01.jpg",
+    images: loadImages(
+      "images/15-zettai-junpaku-mahou-shoujo-kuramoto-erika-bunny-ver",
+      1,
+      1
+    ),
+  },
+  "16-q-six-sisters-natsu-no-saigo-no-hi-akiko-kamimura": {
+    title: "Q-six SISTERS Natsu No Saigo No Hi Akiko Kamimura 1/5",
+    date: "(INCOMING)",
+    presentation:
+      "images/16-q-six-sisters-natsu-no-saigo-no-hi-akiko-kamimura/01.jpg",
+    images: loadImages(
+      "images/16-q-six-sisters-natsu-no-saigo-no-hi-akiko-kamimura",
+      1,
+      1
+    ),
+  },
+  "17-hataraku-onna-no-ureta-ase-otome-kurosawa": {
+    title: "A-Plus Hataraku Onna No Ureta Ase Otome Kurosawa 1/6 (A)",
+    date: "(INCOMING)",
+    presentation: "images/17-hataraku-onna-no-ureta-ase-otome-kurosawa/01.jpg",
+    images: loadImages(
+      "images/17-hataraku-onna-no-ureta-ase-otome-kurosawa",
+      1,
+      1
+    ),
+  },
+  "18-creators-opinion-momoko-uzuki-binding": {
+    title: "BINDing Creator's Opinion - Momoko Uzuki 1/4 (BINDing)",
+    date: "(INCOMING)",
+    presentation: "images/18-creators-opinion-momoko-uzuki-binding/01.jpg",
+    images: loadImages("images/18-creators-opinion-momoko-uzuki-binding", 1, 1),
+  },
+  "19-native-binding-kasumi-bunny-ver": {
+    title: "Native BINDing Kasumi Bunny Ver. 1/4",
+    date: "(INCOMING)",
+    presentation: "images/19-native-binding-kasumi-bunny-ver/01.jpg",
+    images: loadImages("images/19-native-binding-kasumi-bunny-ver", 1, 1),
+  },
+  "20-alphamax-gal-sniper-illustration-nidy-2d": {
+    title: "Alphamax Gal Sniper Illustration by Nidy-2D- STD 12",
+    date: "(INCOMING)",
+    presentation: "images/20-alphamax-gal-sniper-illustration-nidy-2d/01.jpg",
+    images: loadImages(
+      "images/20-alphamax-gal-sniper-illustration-nidy-2d",
+      1,
+      1
+    ),
+  },
+  "21-nasu-yurina": {
+    title: "Nasu Yurina 1/4",
+    date: "(INCOMING)",
+    presentation: "images/21-nasu-yurina/01.jpg",
+    images: loadImages("images/21-nasu-yurina", 1, 1),
+  },
+  "22-moehime-union-yuri-and-stella": {
+    title: "Moehime Union - Yuri & Stella",
+    date: "(INCOMING)",
+    presentation: "images/22-moehime-union-yuri-and-stella/01.jpg",
+    images: loadImages("images/22-moehime-union-yuri-and-stella", 1, 1),
+  },
 };
